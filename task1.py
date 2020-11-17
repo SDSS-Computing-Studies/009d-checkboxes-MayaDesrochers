@@ -180,19 +180,17 @@ check7=Checkbutton(win,variable=cb2)
 check8=Checkbutton(win,variable=cb1)
 entry1=Entry(win)
 
-
-#fix the location of these using place:
-label
-check1
-check2
-check3
-check4
-check5
-check6
-check7
-check8
-b1
-b2
-entry1
+label.place(x=50,y=0)
+check1.place(x=10, y=20)
+check2.place(x=40, y=20)
+check3.place(x=70, y=20)
+check4.place(x=100, y=20)
+check5.place(x=130, y=20)
+check6.place(x=160, y=20)
+check7.place(x=190, y=20)
+check8.place(x=220, y=20)
+b1.place(x=10, y=50)
+b2.place(x=130, y=50)
+entry1.place(x=65, y=80)
 
 win.mainloop()
